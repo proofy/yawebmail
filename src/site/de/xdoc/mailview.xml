@@ -7,7 +7,7 @@
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Erklärung">
+    <section name="ErklÃ¤rung">
       Auf dieser Seite wird eine einzelne Nachricht angezeigt.
     </section>
 
@@ -21,15 +21,15 @@
       Den "antworten"-Button klicken, um auf die aktuelle Nachricht zu
       antworten. Es wird auf die "Neue Mail"-Seite weitergeleitet (weitere Infos
       hierzu in der "Neue Mail"-Dokumentation), deren AN- und Betreff-Felder
-      mit den entsprechenden Werten der aktuellen eMail vorbefüllt werden.</p>
+      mit den entsprechenden Werten der aktuellen eMail vorbefÃ¼llt werden.</p>
 
       <p>"Mail weiterleiten"-Button:
       <br/>
       Den "Mail weiterleiten"-Button klicken, um die aktuelle Nachricht
       weiterzuleiten. Es wird auf die "Neue Mail"-Seite weitergeleitet (weitere
       Infos hierzu in der "Neue Mail"-Dokumentation), dessen Betreff-Feld mit
-      dem entsprechenden Wert der aktuellen eMail vorbefüllt wird. Außerdem wird
-      die aktuelle Nachricht als eMail-Anhang an die neue eMail angehängt.</p>
+      dem entsprechenden Wert der aktuellen eMail vorbefÃ¼llt wird. AuÃŸerdem wird
+      die aktuelle Nachricht als eMail-Anhang an die neue eMail angehÃ¤ngt.</p>
 
       <p>"Nachrichtenquelltext ansehen"-Button:
       <br/>
@@ -37,35 +37,35 @@
       Nachrichtenquelltext der aktuellen Nachricht anzusehen (weitere Infos
       hierzu in der "Nachrichtenquelltext"-Dokumentation).</p>
 
-      <p>"Mail löschen"-Button:
+      <p>"Mail lÃ¶schen"-Button:
       <br/>
-      Den "Mail löschen"-Button klicken, um die aktuelle Nachricht vom
-      eMail-Konto zu löschen.</p>
+      Den "Mail lÃ¶schen"-Button klicken, um die aktuelle Nachricht vom
+      eMail-Konto zu lÃ¶schen.</p>
 
-      <p>"zurück zur Übersicht"-Button:
+      <p>"zurÃ¼ck zur Ãœbersicht"-Button:
       <br/>
-      Den "zurück zur Übersicht"-Button klicken, um zurück zur Seite
-      Mailordner-Übersicht zu gelangen (weitere Infos hierzu in der
-      "Mailordner-Übersicht"-Dokumentation).</p>
+      Den "zurÃ¼ck zur Ãœbersicht"-Button klicken, um zurÃ¼ck zur Seite
+      Mailordner-Ãœbersicht zu gelangen (weitere Infos hierzu in der
+      "Mailordner-Ãœbersicht"-Dokumentation).</p>
 
       <p>"Hilfe"-Button:
       <br/>
-      Den "Hilfe"-Button klicken, um Hilfe für diesen Bildschirm zu erhalten.
+      Den "Hilfe"-Button klicken, um Hilfe fÃ¼r diesen Bildschirm zu erhalten.
       Es wird genau diese Seite angezeigt ;-)</p>
 
       <p>"logout"-Button:
       <br/>
       Den "logout"-Button klicken, um die aktuelle Session zu beenden. Alle
-      Informationen, die während der Session gesammelt wurden, werden sicher
+      Informationen, die wÃ¤hrend der Session gesammelt wurden, werden sicher
       verworfen.</p>
 
       <p>Anzeige der Nachricht:
       <br/>
-      "Plain-Text"-Nachrichten werden direkt auf dieser Seite angezeigt. Für
+      "Plain-Text"-Nachrichten werden direkt auf dieser Seite angezeigt. FÃ¼r
       Nachrichten-Texte in HTML wird ein Link angeboten. Ein Klick auf diesen
-      Link öffnet den HTML-Teil in einem separaten Fenster. Bild-Anhänge (im
+      Link Ã¶ffnet den HTML-Teil in einem separaten Fenster. Bild-AnhÃ¤nge (im
       GIF-, JP(e)G- und PNG-Format) werden auf der aktuellen Seite angezeigt.
-      Alle anderen Anhänge sind über einen angebotenen Link erreichbar.</p>
+      Alle anderen AnhÃ¤nge sind Ã¼ber einen angebotenen Link erreichbar.</p>
     </section>
   </body>
 

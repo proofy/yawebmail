@@ -7,7 +7,7 @@
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Erklärung">
+    <section name="ErklÃ¤rung">
       Auf dieser Seite kann der Quelltext einer Nachricht angesehen werden.
     </section>
 
@@ -16,27 +16,27 @@
     </section>
 
     <section name="Die Eingaben">
-      <p>"zurück zur Mail"-Button:
+      <p>"zurÃ¼ck zur Mail"-Button:
       <br/>
-      Den "zurück zur Mail"-Button klicken, um zurück zur Seite "Einzelne Mail
+      Den "zurÃ¼ck zur Mail"-Button klicken, um zurÃ¼ck zur Seite "Einzelne Mail
       ansehen" zu gelangen (weitere Infos hierzu in der "Einzelne Mail
       ansehen"-Dokumentation).</p>
 
-      <p>"zurück zur Übersicht"-Button:
+      <p>"zurÃ¼ck zur Ãœbersicht"-Button:
       <br/>
-      Den "zurück zur Übersicht"-Button klicken, um zurück zur
-      Mailordner-Übersicht zu gelangen (weitere Infos hierzu in der
-      "Mailordner-Übersicht"-Dokumentation).</p>
+      Den "zurÃ¼ck zur Ãœbersicht"-Button klicken, um zurÃ¼ck zur
+      Mailordner-Ãœbersicht zu gelangen (weitere Infos hierzu in der
+      "Mailordner-Ãœbersicht"-Dokumentation).</p>
 
       <p>"Hilfe"-Button:
       <br/>
-      Den "Hilfe"-Button klicken, um Hilfe für diesen Bildschirm zu erhalten.
+      Den "Hilfe"-Button klicken, um Hilfe fÃ¼r diesen Bildschirm zu erhalten.
       Es wird genau diese Seite angezeigt ;-)</p>
 
       <p>"logout"-Button:
       <br/>
       Den "logout"-Button klicken, um die aktuelle Session zu beenden. Alle
-      Informationen, die während der Session gesammelt wurden, werden sicher
+      Informationen, die wÃ¤hrend der Session gesammelt wurden, werden sicher
       verworfen.</p>
     </section>
   </body>

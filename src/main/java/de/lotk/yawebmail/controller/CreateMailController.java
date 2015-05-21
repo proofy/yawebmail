@@ -324,7 +324,7 @@ public class CreateMailController extends BaseController {
    * 
    * @return  <code>String</code>-object with info where to navigate to 
    */
-  public String reset() {
+  public String reset2() {
 
     return(this.reset(Constants.OUTCOME_CREATE_MAIL));
   }

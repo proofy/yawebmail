@@ -1,8 +1,5 @@
 <!DOCTYPE document PUBLIC "-//Apache Software Foundation//DTD XDOC 1.0//EN"
-        "http://maven.apache.org/dtd/xdoc_1_0.dtd" [
-
-                <!ENTITY #8482 "&amp;#8482;">
-        ]>
+        "http://maven.apache.org/dtd/xdoc_1_0.dtd" >
 
 <document>
 
@@ -13,8 +10,8 @@
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Erklärung">
-      Auf dieser Seite werden die Login-Daten für die Mailbox erfaßt, auf die
+    <section name="ErklÃ¤rung">
+      Auf dieser Seite werden die Login-Daten fÃ¼r die Mailbox erfaÃŸt, auf die
       zugegriffen werden soll.
     </section>
 
@@ -26,8 +23,8 @@
       <p>Sprache:
       <br/>
       Wenn die Sprache, auf die der aufrufende Browser konfiguriert ist, von 
-      yawebmail unterstützt wird, wird diese vorausgewählt. Ansonsten kann eine
-      der angebotenen Sprachen gewählt werden.</p>
+      yawebmail unterstÃ¼tzt wird, wird diese vorausgewÃ¤hlt. Ansonsten kann eine
+      der angebotenen Sprachen gewÃ¤hlt werden.</p>
 
       <p>Mailbox-Server:
       <br/>
@@ -41,17 +38,17 @@
       <a href="glossary.html#imap">IMAP</a>,
       <a href="glossary.html#pop3s">POP3/SSL</a> oder
       <a href="glossary.html#imaps">IMAP/SSL</a> abfragbar ist (manche Konten
-      unterstützen mehrere Protokolle). Bei Unsicherheit erst POP3 und dann IMAP
+      unterstÃ¼tzen mehrere Protokolle). Bei Unsicherheit erst POP3 und dann IMAP
       versuchen. Alternativ kann auch der Provider des eMail-Kontos Auskunft
       geben.
       <br/>
       Beim Zugriff auf einen Google&#8482; Mail accout sollte zuerst POP3 (SSL)
       probiert werde.</p>
 
-      <p>Schraubenschlüssel-Icon:
+      <p>SchraubenschlÃ¼ssel-Icon:
       <br/>
-      Durch Klick auf das Schraubenschlüssel-Icon kann ein abweichender
-      Server-Port gewählt werden, gegen den verbunden wird (dies sollte nur
+      Durch Klick auf das SchraubenschlÃ¼ssel-Icon kann ein abweichender
+      Server-Port gewÃ¤hlt werden, gegen den verbunden wird (dies sollte nur
       getan werden, wenn dies vom eMail-Account-Anbieter so gefordert wird).</p>
 
       <p>Mailbox-Benutzername:
@@ -68,17 +65,17 @@
       <br/>
       Diese Einstellung betrifft die Erstellung der Nachrichten-Liste(n).
       <br/>
-      "Alle Nachrichten auf einer Seite" veranlaßt yawebmail eine
-      Nachrichten-Liste für alle Nachrichten in einem jeweiligen
-      Nachrichten-Ordner zu erstellen. Dies kann bei einer größeren Anzahl von
-      Nachrichten zu längeren Wartezeiten führen, da alle Nachrichen-Header
-      geladen werden müssen. 
+      "Alle Nachrichten auf einer Seite" veranlaÃŸt yawebmail eine
+      Nachrichten-Liste fÃ¼r alle Nachrichten in einem jeweiligen
+      Nachrichten-Ordner zu erstellen. Dies kann bei einer grÃ¶ÃŸeren Anzahl von
+      Nachrichten zu lÃ¤ngeren Wartezeiten fÃ¼hren, da alle Nachrichen-Header
+      geladen werden mÃ¼ssen. 
       <br/>
-      "Mehrere Seiten (Sortierung deaktiviert)" veranlaßt yawebmail den Inhalt
+      "Mehrere Seiten (Sortierung deaktiviert)" veranlaÃŸt yawebmail den Inhalt
       von Nachrichten-Orndern auf mehrere Nachrichten-Listen aufzuteilen (z.B.
       Nachricht 1 - 25, Nachrich 26 - 50, etc.). Diese Funktion deaktiviert die
-      Sortierung über alle Nachrichten, da nur die Nachrichten-Header der
-      gerade aktuellen Nachrichten-Liste geladen werden (diese können folglich
+      Sortierung Ã¼ber alle Nachrichten, da nur die Nachrichten-Header der
+      gerade aktuellen Nachrichten-Liste geladen werden (diese kÃ¶nnen folglich
       nicht mit den Nachrichten-Headern verglichen werden, die nicht geladen
       werden). Die Anzahl der Nachrichten pro Nachrichten-Liste wird vom
       yawebmail-Administrator festgelegt (Default-Wert: 25).
@@ -88,14 +85,14 @@
       <br/>
       Ein Klick auf den "login"-Button verbindet mit dem eMail-Konto.</p>
 
-      <p>"zurücksetzen"-Button:
+      <p>"zurÃ¼cksetzen"-Button:
       <br/>
-      Ein Klich auf den "zurücksetzen"-Button setzt alle Eingabefelder zurück.
+      Ein Klich auf den "zurÃ¼cksetzen"-Button setzt alle Eingabefelder zurÃ¼ck.
       </p>
 
       <p>"Hilfe"-Button:
       <br/>
-      Den "Hilfe"-Button klicken, um Hilfe für diesen Bildschirm zu erhalten.
+      Den "Hilfe"-Button klicken, um Hilfe fÃ¼r diesen Bildschirm zu erhalten.
       Es wird genau diese Seite angezeigt ;-)</p>
     </section>
 

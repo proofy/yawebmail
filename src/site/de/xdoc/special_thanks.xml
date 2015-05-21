@@ -1,12 +1,5 @@
 <!DOCTYPE document PUBLIC "-//Apache Software Foundation//DTD XDOC 1.0//EN"
-        "http://maven.apache.org/dtd/xdoc_1_0.dtd" [
-
-                <!ENTITY #x00E5 "&amp;#x00E5;">
-                <!ENTITY #x0107 "&amp;#x0107;">
-                <!ENTITY #26753 "&amp;#26753;">
-                <!ENTITY #27850 "&amp;#27850;">
-                <!ENTITY #x00ed "&amp;#x00ed;">
-        ]>
+        "http://maven.apache.org/dtd/xdoc_1_0.dtd" >
 
 <document>
 
@@ -22,20 +15,20 @@
 
       <p>Tomasz Stanczak:
       <br/>
-      Für eine Menge Ratschläge (nicht nur in Bezug auf yawebmail).
+      FÃ¼r eine Menge RatschlÃ¤ge (nicht nur in Bezug auf yawebmail).
       </p>
 
       <p>Bill Shannon (bshannon vom
       <a href="http://forum.java.sun.com/forum.jspa?forumID=43"
               target="_blank">JavaMail-Forum</a>):
       <br/>
-      Für einige sehr geistreiche Lösungen für JavaMail-Probleme.
+      FÃ¼r einige sehr geistreiche LÃ¶sungen fÃ¼r JavaMail-Probleme.
       </p>
 
       <p>Marco Martin (mart von <a href="http://www.notmart.org/"
               target="_blank">http://www.notmart.org/</a>):
       <br/>
-      Für die schicken Icons, die in yawebmail verwendet werden
+      FÃ¼r die schicken Icons, die in yawebmail verwendet werden
       (<a href="http://www.kde-look.org/content/show.php/Glaze?content=23966"
               target="_blank">Glaze auf KDE-LOOK.org</a>).
       </p>
@@ -44,10 +37,10 @@
       <a href="http://java.sun.com/products/javamail/"
               target="_blank">JavaMail</a>:
       <br/>
-      Für die Erstellung dieses sehr hilfreichen Frameworks.
+      FÃ¼r die Erstellung dieses sehr hilfreichen Frameworks.
       </p>
 
-      <p>Alle Übersetzer von yawebmail:
+      <p>Alle Ãœbersetzer von yawebmail:
       <br/>
       Daria Sann (russisch), H&#x00E5;kan Andersson (schwedisch),
       Vin&#x00ed;cius Oliveira Janones (esperanto und portugiesisch), Po Liang
@@ -58,7 +51,7 @@
 
       <p>Luke Schemonia:
       <br/>
-      Für das Experimentieren und das Feedback im Bereich IMAP-Funktionalität.
+      FÃ¼r das Experimentieren und das Feedback im Bereich IMAP-FunktionalitÃ¤t.
       </p>
     </section>
   </body>

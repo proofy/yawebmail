@@ -7,7 +7,7 @@
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Erklärung">
+    <section name="ErklÃ¤rung">
       Auf dieser Seite kann eine neue eMail erstellt werden.
     </section>
 
@@ -15,8 +15,8 @@
       <img src="../images/screenshot_new_mail.jpg" width="780" height="600"/>
       <br/><br/><br/>
 
-      Abhängig davon, wie yawebmail vom Administrator konfiguriert wurde,
-      existieren drei mögliche Darstellungsweisen:
+      AbhÃ¤ngig davon, wie yawebmail vom Administrator konfiguriert wurde,
+      existieren drei mÃ¶gliche Darstellungsweisen:
       <br/><br/>
 
       <a name="config1">Konfiguration 1</a>:
@@ -41,71 +41,71 @@
     </section>
 
     <section name="Die Eingaben">
-      <p>SmtpServer / Port (nicht verfügbar in <a href="#config3">Konfiguration
+      <p>SmtpServer / Port (nicht verfÃ¼gbar in <a href="#config3">Konfiguration
       3</a>):
       <br/>
       Hier den Hostnamen und den Port des SMTP-Servers eingetragen, der die
       Nachricht transportieren soll. In <a href="#config2">Konfiguration 2</a>
-      beschränkt sich die Wahl auf das SMTP-Subdomain-Präfix (optional), die
+      beschrÃ¤nkt sich die Wahl auf das SMTP-Subdomain-PrÃ¤fix (optional), die
       Domain ist die aus dem Mailbox-Login. Ist der Hostname und/oder der Port
-      des SMTP-Servers nicht bekannt, kann/können diese(r) beim Provider des
+      des SMTP-Servers nicht bekannt, kann/kÃ¶nnen diese(r) beim Provider des
       eMail-Kontos erfragt werden.</p>
 
       <p>Auth: User / Pass:
       <br/>
       Sollte der SMTP-Server eine Autorisierung erfordern, hier den
-      Benutzernamen und das Passwort eingeben. Ansonsten können diese Felder
+      Benutzernamen und das Passwort eingeben. Ansonsten kÃ¶nnen diese Felder
       frei bleiben. Ist nicht bekannt ob SMTP-Autorisierung erforderlich ist,
-      kann zunächst versucht werden diese Eingabe nicht vorzunehmen. Wenn das
+      kann zunÃ¤chst versucht werden diese Eingabe nicht vorzunehmen. Wenn das
       nicht funktioniert kann der Provider des eMail-Kontos Auskunft geben.</p>
 
       <p>"SSL"-Checkbox:
       <br/>
-      Wird diese Checkbox aktiviert, so wird die Mail über eine SSL-Verbindung
-      gesendet. Dies muss vom entsprechenden SMTP-Server unterstützt werden
-      (ggf. beim eMail-Account-Provider fragen). Der Default-TCP/IP-Port für
+      Wird diese Checkbox aktiviert, so wird die Mail Ã¼ber eine SSL-Verbindung
+      gesendet. Dies muss vom entsprechenden SMTP-Server unterstÃ¼tzt werden
+      (ggf. beim eMail-Account-Provider fragen). Der Default-TCP/IP-Port fÃ¼r
       SMTP-SSL-Verbindungen ist 465.</p>
 
       <p>"TLS"-Checkbox:
       <br/>
-      Wird diese Checkbox aktiviert, so wird die Mail über eine TLS-Verbindung
-      gesendet. Dies muss vom entsprechenden SMTP-Server unterstützt werden
-      (ggf. beim eMail-Account-Provider fragen). Der Default-TCP/IP-Port für
+      Wird diese Checkbox aktiviert, so wird die Mail Ã¼ber eine TLS-Verbindung
+      gesendet. Dies muss vom entsprechenden SMTP-Server unterstÃ¼tzt werden
+      (ggf. beim eMail-Account-Provider fragen). Der Default-TCP/IP-Port fÃ¼r
       SMTP-SSL-Verbindungen ist 587.</p>
 
       <p>Von:
       <br/>
-      Hier die eigene eMail-Adresse eingeben. Es muß darauf geachtet werden, daß
-      manche SMTP-Server prüfen ob die eingegebene eMail-Adresse zu dem (ggf.)
-      verwendeten SMTP-Auth-User paßt. Außerdem sollte hier verstärkt auf
+      Hier die eigene eMail-Adresse eingeben. Es muÃŸ darauf geachtet werden, daÃŸ
+      manche SMTP-Server prÃ¼fen ob die eingegebene eMail-Adresse zu dem (ggf.)
+      verwendeten SMTP-Auth-User paÃŸt. AuÃŸerdem sollte hier verstÃ¤rkt auf
       Tippfehler geachtet werden. Wenn der SMTP-Server die Von-Adresse nicht
-      überprüft, könnten sonst im Fall eines Typos Antwortmails verloren
+      Ã¼berprÃ¼ft, kÃ¶nnten sonst im Fall eines Typos Antwortmails verloren
       gehen.</p>
 
       <p>An:
       <br/>
-      Hier die eMail-Adresse des Empfängers eingeben. Mehrere Empfänger durch
+      Hier die eMail-Adresse des EmpfÃ¤ngers eingeben. Mehrere EmpfÃ¤nger durch
       Komma trennen.</p>
 
       <p>CC:
       <br/>
-      Hier die eMail-Adresse des Carbon-Copy-Empfängers eingeben. Mehrere
-      Empfänger durch Komma trennen.</p>
+      Hier die eMail-Adresse des Carbon-Copy-EmpfÃ¤ngers eingeben. Mehrere
+      EmpfÃ¤nger durch Komma trennen.</p>
 
       <p>BCC:
       <br/>
-      Hier die eMail-Adresse des Blind-Carbon-Copy-Empfängers eingeben. Mehrere
-      Empfänger durch Komma trennen.</p>
+      Hier die eMail-Adresse des Blind-Carbon-Copy-EmpfÃ¤ngers eingeben. Mehrere
+      EmpfÃ¤nger durch Komma trennen.</p>
 
       <p>Betreff:
       <br/>
       Hier den Betreff der Nachricht eingeben.</p>
 
-      <p>Datei Anhänge:
+      <p>Datei AnhÃ¤nge:
       <br/>
-      Sollen Dateien an die Nachricht angehängt werden, so müssen diese vom
-      lokalen Dateisystem ausgewählt und einzeln über den Button "Datei
-      hochladen" zu yawebmail hin übertragen werden.</p>
+      Sollen Dateien an die Nachricht angehÃ¤ngt werden, so mÃ¼ssen diese vom
+      lokalen Dateisystem ausgewÃ¤hlt und einzeln Ã¼ber den Button "Datei
+      hochladen" zu yawebmail hin Ã¼bertragen werden.</p>
 
       <p>eMail-Text:
       <br/>
@@ -114,28 +114,28 @@
       <p>"Mail senden"-Button:
       <br/>
       Den "Mail senden"-Button klicken, um die Nachricht zu senden. Nach
-      erfolgtem Versand leitet yawebmail auf die Seite "Mailordner-Übersicht"
+      erfolgtem Versand leitet yawebmail auf die Seite "Mailordner-Ãœbersicht"
       weiter.</p>
 
-      <p>"zurücksetzen"-Button:
+      <p>"zurÃ¼cksetzen"-Button:
       <br/>
-      Den "zurücksetzen"-Button klicken, um alle Nachrichten-relevanten Eingaben
-      zurückzusetzen.</p>
+      Den "zurÃ¼cksetzen"-Button klicken, um alle Nachrichten-relevanten Eingaben
+      zurÃ¼ckzusetzen.</p>
 
       <p>"abbrechen"-Button:
       <br/>
       Den "abbrechen"-Button klicken, um die Nachrichten-Erstellung abzugrechen
-      und zur "Mailordner-Übersicht"-Seite zurückzukehren.</p>
+      und zur "Mailordner-Ãœbersicht"-Seite zurÃ¼ckzukehren.</p>
 
       <p>"Hilfe"-Button:
       <br/>
-      Den "Hilfe"-Button klicken, um Hilfe für diesen Bildschirm zu erhalten.
+      Den "Hilfe"-Button klicken, um Hilfe fÃ¼r diesen Bildschirm zu erhalten.
       Es wird genau diese Seite angezeigt ;-)</p>
 
       <p>"logout"-Button:
       <br/>
       Den "logout"-Button klicken, um die aktuelle Session zu beenden. Alle
-      Informationen, die während der Session gesammelt wurden, werden sicher
+      Informationen, die wÃ¤hrend der Session gesammelt wurden, werden sicher
       verworfen.</p>
     </section>
   </body>

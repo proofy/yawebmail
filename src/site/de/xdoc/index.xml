@@ -18,18 +18,18 @@
       Ist er auf einem mit dem Internet verbundenen Webserver deployed,
       kann auf POP3- und IMAP-Mailboxen zugegriffen werden. Das funktioniert
       auch, wenn man sich hinter einer Firewall befindet, die die eMail-Ports -
-      im Allgemeinen Port 25 für SMTP, Port 110 für POP3 and Port 143 für IMAP -
-      blockiert. Voraussetzung in natürlich, daß der Zugriff via HTTP auf den
+      im Allgemeinen Port 25 fÃ¼r SMTP, Port 110 fÃ¼r POP3 and Port 143 fÃ¼r IMAP -
+      blockiert. Voraussetzung in natÃ¼rlich, daÃŸ der Zugriff via HTTP auf den
       Webserver erlaubt ist...
     </section>
 
     <section name="Wie unterscheidet sich yawebmail von anderen webmail-clients?">
-      Während andere webmail-clients mit jeder Menge Drum und Dran daherkommen,
-      konzentriert sich yawebmail auf die Unterstützung von so vielen Standards
-      wie möglich.
+      WÃ¤hrend andere webmail-clients mit jeder Menge Drum und Dran daherkommen,
+      konzentriert sich yawebmail auf die UnterstÃ¼tzung von so vielen Standards
+      wie mÃ¶glich.
       <br/><br/>
 
-      Hier ein kleiner Überblick* (basierend auf den Feature-Listen und FAQs der
+      Hier ein kleiner Ãœberblick* (basierend auf den Feature-Listen und FAQs der
       jeweiligen webmail-clients und einigen eigenen Tests):
       <br/>
       <table>
@@ -130,8 +130,8 @@
           </tr>
         </tbody>
       </table>
-      *Diese Übersicht vergleicht die Unterstützung von Standards, nicht die
-      Features der einzelnen Programme. Tatsächlich können die verglichenen
+      *Diese Ãœbersicht vergleicht die UnterstÃ¼tzung von Standards, nicht die
+      Features der einzelnen Programme. TatsÃ¤chlich kÃ¶nnen die verglichenen
       Clients mehr Features haben.
     </section>
 
@@ -149,12 +149,12 @@
     </section>
 
     <section name="Konfiguration">
-      Keine :-) Kein Pfad muß gesetzt, keine Datenbank konfiguriert werden.
+      Keine :-) Kein Pfad muÃŸ gesetzt, keine Datenbank konfiguriert werden.
     </section>
 
     <section name="Start">
       Im Browser die Adresse
-      "http://#yourserver.com#:#appserverport#/yawebmail/" öffnen.
+      "http://#yourserver.com#:#appserverport#/yawebmail/" Ã¶ffnen.
     </section>
   </body>
 

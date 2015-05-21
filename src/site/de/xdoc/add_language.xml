@@ -1,15 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <document>
 
   <properties>
     <author email="stephan@lotk.de">Stephan Sann</author>
-    <title>Sprache hinzuf�gen</title>
+    <title>Sprache hinzufÃ¼gen</title>
   </properties>
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Sprachdatei �bersetzen">
-      Um yawebmail eine weitere Sprache hinzuzuf�gen, mu� lediglich eine Datei
-      in die gew�nschte Sprache �bersetzt werden.
+    <section name="Sprachdatei Ã¼bersetzen">
+      Um yawebmail eine weitere Sprache hinzuzufÃ¼gen, muÃ lediglich eine Datei
+      in die gewÃ¼nschte Sprache Ã¼bersetzt werden.
 
       <p>Im WAR-Archiv* finden sich unter dem Verzeichnis
       <br/><br/>
@@ -25,31 +26,31 @@
       <br/>
       Von einer der vorhandenen Dateien eine beliebige in die Zieldatei
       "view_#Sprachcode#.properties" in das gleiche Verzeichnis kopieren und
-      dort die �bersetzungen vornehmen.
+      dort die Ãbersetzungen vornehmen.
       </p>
 
       * Hinweise zum (Ent-)Packen des WAR-Archives
       <a href="logon_properties.html" target="_blank">hier</a>.
     </section>
 
-    <section name="Sprachdatei mailen und/oder selbst hinzuf�gen">
-      Am einfachsten ist es, die �bersetzte Datei an die in den Sprachdateien
-      angegebene eMail-Adresse zu mailen. Sie wird dann in das n�chste Release
-      von yawebmail �bernommen.
+    <section name="Sprachdatei mailen und/oder selbst hinzufÃ¼gen">
+      Am einfachsten ist es, die Ã¼bersetzte Datei an die in den Sprachdateien
+      angegebene eMail-Adresse zu mailen. Sie wird dann in das nÃ¤chste Release
+      von yawebmail Ã¼bernommen.
 
-      <p>Wer nicht warten m�chte, kann die neue Sprachdatei auch selbst
-      hinzuf�gen (bitte in diesem Fall die �bersetzung trotzdem mailen, damit
+      <p>Wer nicht warten mÃ¶chte, kann die neue Sprachdatei auch selbst
+      hinzufÃ¼gen (bitte in diesem Fall die Ãbersetzung trotzdem mailen, damit
       auch andere yawebmail-user etwas davon haben):
       </p>
 
       <ol>
         <li>
-          �bersetzte Datei in das Sprachdatei-Verzeichnis (s.o.) kopieren (falls
+          Ãbersetzte Datei in das Sprachdatei-Verzeichnis (s.o.) kopieren (falls
           nicht bereits passiert).
         </li>
         <li>
           Im Verzeichnis "WEB-INF" der Datei "myfaces-config.xml" unter
-          "locale-config" einen neuen Eintrag "supported-locale" hinzuf�gen.
+          "locale-config" einen neuen Eintrag "supported-locale" hinzufÃ¼gen.
         </li>
         <li>Servlet-container neu starten.</li>
       </ol>

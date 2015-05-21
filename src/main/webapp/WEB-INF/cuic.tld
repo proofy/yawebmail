@@ -7,9 +7,9 @@
 
   <tlib-version>1.0</tlib-version>
   <jsp-version>1.2</jsp-version>
-  <shortname>yawebmail Tag Library</shortname>
-  <uri></uri>
-  <info> Tags fuer das Programmm yawebmail </info>
+  <short-name>yawebmail Tag Library</short-name>
+  <uri>de.lotk.yawebmail.cuic</uri>
+  <description>Tags fuer das Programmm yawebmail</description>
 
   <!-- Wie Myfaces htmlTag; Ausgabe nur wenn Bedingung zutrifft. -->
   <tag>
@@ -151,9 +151,9 @@
   <!-- Ausgabe aufbereiteter Plain-Text-Part -->
   <tag>
     <name>outputLocalizedText</name>
-    <tagclass>de.lotk.yawebmail.taglibs.cuic.OutputLocalizedTextTag</tagclass>
-    <bodycontent>EMPTY</bodycontent>
-    <info> Ausgabe eines localized Textes </info>
+    <tag-class>de.lotk.yawebmail.taglibs.cuic.OutputLocalizedTextTag</tag-class>
+    <body-content>EMPTY</body-content>
+    <description> Ausgabe eines localized Textes </description>
     <attribute>
       <name>key</name>
       <required>true</required>
@@ -169,9 +169,9 @@
   <!-- Ausgabe eines Inhalts pro Ordner-Ebene -->
   <tag>
     <name>outputPerFolderLevel</name>
-    <tagclass>de.lotk.yawebmail.taglibs.cuic.OutputPerFolderLevelTag</tagclass>
-    <bodycontent>EMPTY</bodycontent>
-    <info> Ausgabe eines Inhalts pro Ordner-Ebene </info>
+    <tag-class>de.lotk.yawebmail.taglibs.cuic.OutputPerFolderLevelTag</tag-class>
+    <body-content>EMPTY</body-content>
+    <description> Ausgabe eines Inhalts pro Ordner-Ebene </description>
     <attribute>
       <name>value</name>
       <required>true</required>
@@ -192,9 +192,9 @@
   <!-- Ausgabe aufbereiteter Plain-Text-Part -->
   <tag>
     <name>outputPlainTextPart</name>
-    <tagclass>de.lotk.yawebmail.taglibs.cuic.OutputPlainTextPartTag</tagclass>
-    <bodycontent>EMPTY</bodycontent>
-    <info> Ausgabe aufbereiteter Plain-Text-Part </info>
+    <tag-class>de.lotk.yawebmail.taglibs.cuic.OutputPlainTextPartTag</tag-class>
+    <body-content>EMPTY</body-content>
+    <description> Ausgabe aufbereiteter Plain-Text-Part </description>
     <attribute>
       <name>value</name>
       <required>true</required>

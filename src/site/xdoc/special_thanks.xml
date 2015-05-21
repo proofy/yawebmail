@@ -1,12 +1,5 @@
 <!DOCTYPE document PUBLIC "-//Apache Software Foundation//DTD XDOC 1.0//EN"
-        "http://maven.apache.org/dtd/xdoc_1_0.dtd" [
-
-                <!ENTITY #x00E5 "&amp;#x00E5;">
-                <!ENTITY #x0107 "&amp;#x0107;">
-                <!ENTITY #26753 "&amp;#26753;">
-                <!ENTITY #27850 "&amp;#27850;">
-                <!ENTITY #x00ed "&amp;#x00ed;">
-        ]>
+        "http://maven.apache.org/dtd/xdoc_1_0.dtd" >
 
 <document>
 

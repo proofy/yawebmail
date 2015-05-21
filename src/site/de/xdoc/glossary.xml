@@ -12,39 +12,39 @@
 
       <p><a name="pop3">POP3</a>:
       <br/>
-      Post Office Protocol Version 3 (RFC 1939). Unterstützt von fast allen
+      Post Office Protocol Version 3 (RFC 1939). UnterstÃ¼tzt von fast allen
       Mailbox-Servern. Es kann nur ein ein Mailordner ("INBOX") benutzt werden.
       <br/>
-      Wird POP3 auf der Logon-Maske ausgewählt, wird yawebmail versuchen sich
-      gegen den Port 110 (Default-TCP/IP-Port für POP3) auf dem gewählten
+      Wird POP3 auf der Logon-Maske ausgewÃ¤hlt, wird yawebmail versuchen sich
+      gegen den Port 110 (Default-TCP/IP-Port fÃ¼r POP3) auf dem gewÃ¤hlten
       Mailbox-Host zu verbinden.</p>
 
       <p><a name="imap">IMAP</a>:
       <br/>
       Internet Message Access Protocol (RFC 3501). Wird von vielen
-      Mailbox-Servern unterstützt. IMAP bietet das Erstellen von mehreren
-      Ordnern, in denen die eMails organisiert werden können.
+      Mailbox-Servern unterstÃ¼tzt. IMAP bietet das Erstellen von mehreren
+      Ordnern, in denen die eMails organisiert werden kÃ¶nnen.
       <br/>
-      Wird IMAP auf der Logon-Maske ausgewählt, wird yawebmail versuchen sich
-      gegen den Port 143 (Default-TCP/IP-Port für IMAP) auf dem gewählten
+      Wird IMAP auf der Logon-Maske ausgewÃ¤hlt, wird yawebmail versuchen sich
+      gegen den Port 143 (Default-TCP/IP-Port fÃ¼r IMAP) auf dem gewÃ¤hlten
       Mailbox-Host zu verbinden.</p>
 
       <p><a name="pop3s">POP3 (SSL) / POP3S</a>:
       <br/>
-      Identisch mit POP3, aber alle Daten werden über eine SSL-Verbindung
-      übertragen. Wird aber nicht von vielen Mailbox-Servern unterstützt.
+      Identisch mit POP3, aber alle Daten werden Ã¼ber eine SSL-Verbindung
+      Ã¼bertragen. Wird aber nicht von vielen Mailbox-Servern unterstÃ¼tzt.
       <br/>
-      Wird POP3 (SSL) auf der Logon-Maske ausgewählt, wird yawebmail versuchen
-      sich gegen den Port 995 (Default-TCP/IP-Port für POP3S) auf dem gewählten
+      Wird POP3 (SSL) auf der Logon-Maske ausgewÃ¤hlt, wird yawebmail versuchen
+      sich gegen den Port 995 (Default-TCP/IP-Port fÃ¼r POP3S) auf dem gewÃ¤hlten
       Mailbox-Host zu verbinden.</p>
 
       <p><a name="imaps">IMAP (SSL) / IMAPS</a>:
       <br/>
-      Identisch mit IMAP, aber alle Daten werden über eine SSL-Verbindung
-      übertragen. Wird aber nicht von vielen Mailbox-Servern unterstützt.
+      Identisch mit IMAP, aber alle Daten werden Ã¼ber eine SSL-Verbindung
+      Ã¼bertragen. Wird aber nicht von vielen Mailbox-Servern unterstÃ¼tzt.
       <br/>
-      Wird IMAP (SSL) auf der Logon-Maske ausgewählt, wird yawebmail versuchen
-      sich gegen den Port 993 (Default-TCP/IP-Port für IMAPS) auf dem gewählten
+      Wird IMAP (SSL) auf der Logon-Maske ausgewÃ¤hlt, wird yawebmail versuchen
+      sich gegen den Port 993 (Default-TCP/IP-Port fÃ¼r IMAPS) auf dem gewÃ¤hlten
       Mailbox-Host zu verbinden.</p>
 
       <h4>Mail senden</h4>
@@ -52,9 +52,9 @@
       <p><a name="smtp">SMTP</a>:
       <br/>
       Simple Mail Transfer Protocol (RFC 821 and RFC 2821). Wird von fast allen
-      Mailservern unterstützt. Dieses Protokoll wird von yawebmail genutzt um
-      Mail zu versenden. Per Default schlägt yawebmail den Port 25 für
-      SMTP-Verbindungen vor (kann bei Bedarf geändert werden).</p>
+      Mailservern unterstÃ¼tzt. Dieses Protokoll wird von yawebmail genutzt um
+      Mail zu versenden. Per Default schlÃ¤gt yawebmail den Port 25 fÃ¼r
+      SMTP-Verbindungen vor (kann bei Bedarf geÃ¤ndert werden).</p>
 
       <p><a name="smtpAuth">SMTP Auth.</a>:
       <br/>
@@ -68,27 +68,27 @@
 
       <p><a name="smtpSsl">SMTP/SSL</a>:
       <br/>
-      Das gleiche wie SMTP, aber alle Daten werden über eine SSL-Verbindung
-      transportiert. Der Default-TCP/IP-Port für SMTP/SSL ist 465.</p>
+      Das gleiche wie SMTP, aber alle Daten werden Ã¼ber eine SSL-Verbindung
+      transportiert. Der Default-TCP/IP-Port fÃ¼r SMTP/SSL ist 465.</p>
 
       <p><a name="smtpTls">SMTP/TLS</a>:
       <br/>
-      Das gleiche wie SMTP, aber alle Daten werden über eine TLS-Verbindung
-      transportiert. Der Default-TCP/IP-Port für SMTP/TLS ist 587.</p>
+      Das gleiche wie SMTP, aber alle Daten werden Ã¼ber eine TLS-Verbindung
+      transportiert. Der Default-TCP/IP-Port fÃ¼r SMTP/TLS ist 587.</p>
 
       <h4>Verschiedenes</h4>
 
       <p><a name="idn">IDN</a>:
       <br/>
       Internationalized Domain Name - ein Domain-Name mit "Nicht-ASCII-Zeichen".
-      Wird eine eMail an eine IDN-Domain gesendet, übersetzt yawebmail die
-      Empfänger-Adresse automatisch in ihre Punycode-Repräsentation.</p>
+      Wird eine eMail an eine IDN-Domain gesendet, Ã¼bersetzt yawebmail die
+      EmpfÃ¤nger-Adresse automatisch in ihre Punycode-ReprÃ¤sentation.</p>
 
       <p><a name="utf8">UTF-8</a>:
       <br/>
       8-bit Unicode Transformation Format. Alle eMail-Texte werden von yawebmail
-      mit UTF-8 codiert. So sollte der Empfänger keine Probleme mit
-      Sonderzeichen haben (vorausgesetzt sein Client unterstützt ebenfalls
+      mit UTF-8 codiert. So sollte der EmpfÃ¤nger keine Probleme mit
+      Sonderzeichen haben (vorausgesetzt sein Client unterstÃ¼tzt ebenfalls
       UTF-8).</p>
     </section>
   </body>

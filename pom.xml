@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE project [
-  <!ENTITY #x00E5 "&amp;#x00E5;">
-  <!ENTITY #x0107 "&amp;#x0107;">
-  <!ENTITY #26753 "&amp;#26753;">
-  <!ENTITY #27850 "&amp;#27850;">
-  <!ENTITY #x00ed "&amp;#x00ed;">
-]>
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
 
@@ -274,7 +266,7 @@
     <dependency>
       <groupId>org.gnu.inet</groupId>
       <artifactId>libidn</artifactId>
-      <version>0.6.7</version>
+      <version>1.15</version>
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
@@ -282,13 +274,13 @@
     <dependency>
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
-      <version>1.4.2-SNAPSHOT</version>
+      <version>1.4.7</version>
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
 
     <dependency>
-      <groupId>myfaces</groupId>
+      <groupId>org.apache.myfaces.core</groupId>
       <artifactId>myfaces-api</artifactId>
       <version>1.1.5</version>
       <type>jar</type>
@@ -296,7 +288,7 @@
     </dependency>
 
     <dependency>
-      <groupId>myfaces</groupId>
+      <groupId>org.apache.myfaces.core</groupId>
       <artifactId>myfaces-impl</artifactId>
       <version>1.1.5</version>
       <type>jar</type>
@@ -322,7 +314,7 @@
 -->
 
     <dependency>
-      <groupId>myfaces</groupId>
+      <groupId>org.apache.myfaces.tomahawk</groupId>
       <artifactId>tomahawk</artifactId>
       <version>1.1.6</version>
       <type>jar</type>

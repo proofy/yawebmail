@@ -33,7 +33,7 @@
               </h:commandLink>
 
               <h:commandLink styleClass="undecoratedLink"
-                      action="#{createMailController.reset}" immediate="true">
+                      action="#{createMailController.reset2}" immediate="true">
                 <h:graphicImage alt="reset" url="/static/images/reset.png"/>
                 <h:outputText styleClass="buttonTexts"
                         value="#{viewProperties.button_reset}"/>
@@ -219,7 +219,7 @@
             </h:commandLink>
 
             <h:commandLink styleClass="undecoratedLink"
-                    action="#{createMailController.reset}" immediate="true">
+                    action="#{createMailController.reset2}" immediate="true">
               <h:graphicImage alt="reset" url="/static/images/reset.png"/>
               <h:outputText styleClass="buttonTexts"
                       value="#{viewProperties.button_reset}"/>

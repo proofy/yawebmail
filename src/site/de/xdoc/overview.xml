@@ -2,15 +2,15 @@
 
   <properties>
     <author email="stephan@lotk.de">Stephan Sann</author>
-    <title>Benutzerdokumentation: Mailordner-Übersicht</title>
+    <title>Benutzerdokumentation: Mailordner-Ãœbersicht</title>
   </properties>
 
   <body>
     <!-- The body of the document contains a number of sections -->
-    <section name="Erklärung">
+    <section name="ErklÃ¤rung">
       Auf dieser Seite werden die aktuellen Nachrichten des aktuellen
       Mailordners angezeigt. Bei POP3 gibt es nur einen Ordner ("INBOX"),
-      weshalb hier die Ordner-Navigation deaktiviert ist. Bei IMAP können
+      weshalb hier die Ordner-Navigation deaktiviert ist. Bei IMAP kÃ¶nnen
       verschiedene Ordner existieren; hier wird auf der linken Seite eine
       Ordner-Navigation angezeigt.
     </section>
@@ -20,16 +20,16 @@
     </section>
 
     <section name="Die Eingaben">
-      <p>"ausgewählte Mail löschen"-Button:
+      <p>"ausgewÃ¤hlte Mail lÃ¶schen"-Button:
       <br/>
-      Den "ausgewählte Mail löschen"-Button klicken, um die ausgewählen Mails zu
-      löschen (um eine Mail zu auszuwählen muß die jeweilige Checkbox markiert
+      Den "ausgewÃ¤hlte Mail lÃ¶schen"-Button klicken, um die ausgewÃ¤hlen Mails zu
+      lÃ¶schen (um eine Mail zu auszuwÃ¤hlen muÃŸ die jeweilige Checkbox markiert
       werden).</p>
 
       <p>"neue Mail abrufen"-Button:
       <br/>
       Den "neue Mail abrufen"-Button klicken, um neue Nachrichten vom Server
-      abzurufen. Die Mailordner-Übersicht wird aktualisiert.</p>
+      abzurufen. Die Mailordner-Ãœbersicht wird aktualisiert.</p>
 
       <p>"neue Mail erstellen"-Button:
       <br/>
@@ -38,62 +38,62 @@
 
       <p>"Hilfe"-Button:
       <br/>
-      Den "Hilfe"-Button klicken, um Hilfe für diesen Bildschirm zu erhalten.
+      Den "Hilfe"-Button klicken, um Hilfe fÃ¼r diesen Bildschirm zu erhalten.
       Es wird genau diese Seite angezeigt ;-)</p>
 
       <p>"logout"-Button:
       <br/>
       Den "logout"-Button klicken, um die aktuelle Session zu beenden. Alle
-      Informationen, die während der Session gesammelt wurden, werden sicher
+      Informationen, die wÃ¤hrend der Session gesammelt wurden, werden sicher
       verworfen.</p>
 
-      <p>"Ordner erstellen"-Button (nicht verfügbar beim POP3-Protokoll):
+      <p>"Ordner erstellen"-Button (nicht verfÃ¼gbar beim POP3-Protokoll):
       <br/>
       Mit Klick auf den "Ordner erstellen"-Button wird ein neuer Unterordner
       innerhalb des aktuellen Ordners erstellt. Der Name des zu erstellenden
-      Ordners muss in dem Textfeld über diesem Button angegeben werden. Sollte
+      Ordners muss in dem Textfeld Ã¼ber diesem Button angegeben werden. Sollte
       dieser Button abgegraut sein, erlaubt der Mailbox-Server keine Erstellung
       von Unterordnern innerhalb des akteullen Ordners.</p>
 
-      <p>"Ordner löschen"-Button (nicht verfügbar beim POP3-Protokoll):
+      <p>"Ordner lÃ¶schen"-Button (nicht verfÃ¼gbar beim POP3-Protokoll):
       <br/>
-      Mit Klick auf den "Ordner löschen"-Button wird der in der Dropdownliste
-      über diesem Button ausgewählte Unterordner gelöscht. Sollte dieser Button
+      Mit Klick auf den "Ordner lÃ¶schen"-Button wird der in der Dropdownliste
+      Ã¼ber diesem Button ausgewÃ¤hlte Unterordner gelÃ¶scht. Sollte dieser Button
       abgegraut sein, erlaubt der Mailbox-Server keine Unterordner unterhalb des
       aktuellen Ordners.</p>
 
       <p>Betreff-Links:
       <br/>
       Jeder Nachrichten-Betreff ist mit einem Link zu der entsprechenden
-      "Einzelne Mail ansehen"-Seite ausgestattet. Dort kann die ausgewählte
+      "Einzelne Mail ansehen"-Seite ausgestattet. Dort kann die ausgewÃ¤hlte
       Nachricht gelesen werden (weitere Infos hierzu in der "Einzelne Mail
       ansehen"-Dokumentation).</p>
 
-      <p>Spalten-Köpfe:
+      <p>Spalten-KÃ¶pfe:
       <br/>
       Die Sortierreihenfolge der angezeigten Nachrichten kann durch Klick auf
-      den jeweilen Spalten-Kopf geändert werden.</p>
+      den jeweilen Spalten-Kopf geÃ¤ndert werden.</p>
 
       <p>"Spamlevel"-Spalte:
       <br/>
       Wenn Spamassassin (http://spamassassin.apache.org/) auf dem Mailserver
       installiert ist, wird dieses zu jeder Mail einen "X-Spam-Level"-Header
-      hinzufügen. Dieser zeigt den Spam-Pegel der jeweiligen Mail in Form eines
+      hinzufÃ¼gen. Dieser zeigt den Spam-Pegel der jeweiligen Mail in Form eines
       Asterisk-Zeichens (*) an. Weitere Informationen finden sich auf der
       Spamassassin-Website. Wird in einer Mail kein "X-Spam-Level"-Header
       gefunden, wird in dieser Spalte ein "[nicht gesetzt]" angezeigt.</p>
 
-      <p>"alles auswählen"-Button:
+      <p>"alles auswÃ¤hlen"-Button:
       <br/>
-      Den "alles auswählen"-Button klicken, um alle Nachrichten auszuwählen
+      Den "alles auswÃ¤hlen"-Button klicken, um alle Nachrichten auszuwÃ¤hlen
       (alle Checkboxen werden markiert).</p>
 
-      <p>"Ausgewählte Nachrichten verschieben nach" (nicht verfügbar beim
+      <p>"AusgewÃ¤hlte Nachrichten verschieben nach" (nicht verfÃ¼gbar beim
       POP3-Protokoll):
       <br/>
-      Hier können die selektierten Nachrichten in einen anderen Ordner
-      verschoben werden. In der Dropdownliste den gewünschten Zielordner
-      auswählen und den "ausführen"-Button klicken.</p>
+      Hier kÃ¶nnen die selektierten Nachrichten in einen anderen Ordner
+      verschoben werden. In der Dropdownliste den gewÃ¼nschten Zielordner
+      auswÃ¤hlen und den "ausfÃ¼hren"-Button klicken.</p>
     </section>
 
   </body>
